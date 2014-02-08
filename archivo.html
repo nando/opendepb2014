@@ -1,0 +1,40 @@
+---
+layout: default
+title: Archivo
+section: archivo
+---
+
+  <h2>{{page.title}}</h2>
+
+  <h3>Páginas del I Open de Pedro Bernardo 2012</a></h3>
+  <ul>
+    <li>
+      <a href="http://primer.opendepb.com/pilotos_2012.html" title="Pilotos del I Open de Pedro Bernardo (2012)">Pilotos</a>
+    </li>
+    <li>
+      <a href="http://primer.opendepb.com/clasificacion_2012.html" title="Clasificación del I Open de Pedro Bernardo (2012)">Clasificación</a>
+    </li>
+    <li>
+      <a href="http://primer.opendepb.com/archivo.html" title="Noticias del I Open de Pedro Bernardo (2012)">Noticias</a>
+    </li>
+  </ul>
+
+  <h3>Páginas del II Open de Pedro Bernardo 2013</a></h3>
+  <ul>
+    <li>
+      <a href="http://segundo.opendepb.com/pilotos.html" title="Pilotos del II Open de Pedro Bernardo (2013)">Pilotos</a>
+    </li>
+    <li>
+      <a href="http://segundo.opendepb.com/clasificacion_2012.html" title="Clasificación del II Open de Pedro Bernardo (2013)">Clasificación</a>
+    </li>
+    <li>
+      <a href="http://segundo.opendepb.com/archivo.html" title="Noticias del II Open de Pedro Bernardo (2013)">Noticias</a>
+    </li>
+  </ul>
+
+  <h3>Archivo de noticias del III Open de Pedro Bernardo 2014</h3>
+  <ul>
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date: "%d/%m/%Y" }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

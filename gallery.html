@@ -1,0 +1,218 @@
+---
+  layout: default
+  title: Galería de fotos (por Luis Cotilla - luiscotilla.com)
+  section: galeria
+---
+
+<link rel="stylesheet" href="styles/flexslider.css" type="text/css">
+<script src="javascript/jquery.flexslider-min.js"></script>
+    
+<script>
+$(window).load(function() {
+  function check_and_load_if_missed(slider, pos) {
+    if((slider.slides[pos] != undefined) &&
+       ($(slider.slides[pos].childNodes[0]).attr("src") == ""))
+        { $(slider.slides[pos].childNodes[0]).attr("src",
+          'images/gallery/' + $(slider.slides[pos].childNodes[0]).attr("rel") + '.JPG'); }
+  }
+  $('.flexslider').flexslider({
+    animation: "fade",
+    start: function(slider){
+      $('.spinner', slider).hide();
+    },
+    before: function(slider){
+      check_and_load_if_missed(slider, slider.animatingTo);
+      check_and_load_if_missed(slider, slider.animatingTo+1);
+      check_and_load_if_missed(slider, slider.animatingTo-1);
+    }
+  });
+});
+</script>
+
+<div class="flexslider">
+  <div class="center_wrapper spinner">
+    <img class="spinner" alt="cargando fotos..." src="images/ajax-loader.gif"/>
+  </div>
+  <ul class="slides">
+    <li><img src="images/gallery/0000.JPG" /></li>
+    <li><img src="images/gallery/0001.JPG" /></li>
+    <li><img src="" rel="0002" /></li>
+    <li><img src="" rel="0003" /></li>
+    <li><img src="" rel="0011" /></li>
+    <li><img src="" rel="0015" /></li>
+    <li><img src="" rel="0016" /></li>
+    <li><img src="" rel="0030" /></li>
+    <li><img src="" rel="0040" /></li>
+    <li><img src="" rel="0043" /></li>
+    <li><img src="" rel="0045" /></li>
+    <li><img src="" rel="0046" /></li>
+    <li><img src="" rel="0049" /></li>
+    <li><img src="" rel="0050" /></li>
+    <li><img src="" rel="0060" /></li>
+    <li><img src="" rel="0070" /></li>
+    <li><img src="" rel="0080" /></li>
+    <li><img src="" rel="0090" /></li>
+    <li><img src="" rel="0095" /></li>
+    <li><img src="" rel="0100" /></li>
+    <li><img src="" rel="0105" /></li>
+    <li><img src="" rel="0109" /></li>
+    <li><img src="" rel="0110" /></li>
+    <li><img src="" rel="0111" /></li>
+    <li><img src="" rel="0112" /></li>
+    <li><img src="" rel="0114" /></li>
+    <li><img src="" rel="0115" /></li>
+    <li><img src="" rel="0116" /></li>
+    <li><img src="" rel="0120" /></li>
+    <li><img src="" rel="0126" /></li>
+    <li><img src="" rel="0140" /></li>
+    <li><img src="" rel="0145" /></li>
+    <li><img src="" rel="0150" /></li>
+    <li><img src="" rel="0160" /></li>
+    <li><img src="" rel="0170" /></li>
+    <li><img src="" rel="0175" /></li>
+    <li><img src="" rel="0180" /></li>
+    <li><img src="" rel="0200" /></li>
+    <li><img src="" rel="0210" /></li>
+    <li><img src="" rel="0220" /></li>
+    <li><img src="" rel="0230" /></li>
+    <li><img src="" rel="0240" /></li>
+    <li><img src="" rel="0250" /></li>
+    <li><img src="" rel="0260" /></li>
+    <li><img src="" rel="0270" /></li>
+    <li><img src="" rel="0275" /></li>
+    <li><img src="" rel="0280" /></li>
+    <li><img src="" rel="0290" /></li>
+    <li><img src="" rel="0300" /></li>
+    <li><img src="" rel="0320" /></li>
+    <li><img src="" rel="0330" /></li>
+    <li><img src="" rel="0340" /></li>
+    <li><img src="" rel="0350" /></li>
+    <li><img src="" rel="0360" /></li>
+    <li><img src="" rel="0370" /></li>
+    <li><img src="" rel="0380" /></li>
+    <li><img src="" rel="0390" /></li>
+    <li><img src="" rel="0395" /></li>
+    <li><img src="" rel="0397" /></li>
+    <li><img src="" rel="0400" /></li>
+    <li><img src="" rel="0401" /></li>
+    <li><img src="" rel="0406" /></li>
+    <li><img src="" rel="0410" /></li>
+    <li><img src="" rel="0415" /></li>
+    <li><img src="" rel="0420" /></li>
+    <li><img src="" rel="0430" /></li>
+    <li><img src="" rel="0440" /></li>
+    <li><img src="" rel="0460" /></li>
+    <li><img src="" rel="0470" /></li>
+    <li><img src="" rel="0480" /></li>
+    <li><img src="" rel="0490" /></li>
+    <li><img src="" rel="0500" /></li>
+    <li><img src="" rel="0505" /></li>
+    <li><img src="" rel="0510" /></li>
+    <li><img src="" rel="0520" /></li>
+    <li><img src="" rel="0525" /></li>
+    <li><img src="" rel="0530" /></li>
+    <li><img src="" rel="0535" /></li>
+    <li><img src="" rel="0540" /></li>
+    <li><img src="" rel="0545" /></li>
+    <li><img src="" rel="0550" /></li>
+    <li><img src="" rel="0560" /></li>
+    <li><img src="" rel="0570" /></li>
+    <li><img src="" rel="0580" /></li>
+    <li><img src="" rel="0590" /></li>
+    <li><img src="" rel="0600" /></li>
+    <li><img src="" rel="0610" /></li>
+    <li><img src="" rel="0620" /></li>
+    <li><img src="" rel="0630" /></li>
+    <li><img src="" rel="0635" /></li>
+    <li><img src="" rel="0640" /></li>
+    <li><img src="" rel="0650" /></li>
+    <li><img src="" rel="0660" /></li>
+    <li><img src="" rel="0665" /></li>
+    <li><img src="" rel="0666" /></li>
+    <li><img src="" rel="0670" /></li>
+    <li><img src="" rel="0680" /></li>
+    <li><img src="" rel="0690" /></li>
+    <li><img src="" rel="0700" /></li>
+    <li><img src="" rel="0710" /></li>
+    <li><img src="" rel="0720" /></li>
+    <li><img src="" rel="0730" /></li>
+    <li><img src="" rel="0740" /></li>
+    <li><img src="" rel="0745" /></li>
+    <li><img src="" rel="0750" /></li>
+    <li><img src="" rel="0760" /></li>
+    <li><img src="" rel="0770" /></li>
+    <li><img src="" rel="0780" /></li>
+    <li><img src="" rel="0790" /></li>
+    <li><img src="" rel="0800" /></li>
+    <li><img src="" rel="0810" /></li>
+    <li><img src="" rel="0815" /></li>
+    <li><img src="" rel="0820" /></li>
+    <li><img src="" rel="0830" /></li>
+    <li><img src="" rel="0840" /></li>
+    <li><img src="" rel="0850" /></li>
+    <li><img src="" rel="0860" /></li>
+    <li><img src="" rel="0870" /></li>
+    <li><img src="" rel="0871" /></li>
+    <li><img src="" rel="0880" /></li>
+    <li><img src="" rel="0890" /></li>
+    <li><img src="" rel="0900" /></li>
+    <li><img src="" rel="0910" /></li>
+    <li><img src="" rel="0920" /></li>
+    <li><img src="" rel="0930" /></li>
+    <li><img src="" rel="0940" /></li>
+    <li><img src="" rel="0950" /></li>
+    <li><img src="" rel="0960" /></li>
+    <li><img src="" rel="0970" /></li>
+    <li><img src="" rel="0980" /></li>
+    <li><img src="" rel="0990" /></li>
+    <li><img src="" rel="1000" /></li>
+    <li><img src="" rel="1010" /></li>
+    <li><img src="" rel="1011" /></li>
+    <li><img src="" rel="1015" /></li>
+    <li><img src="" rel="1016" /></li>
+    <li><img src="" rel="1020" /></li>
+    <li><img src="" rel="1025" /></li>
+    <li><img src="" rel="1030" /></li>
+    <li><img src="" rel="1040" /></li>
+    <li><img src="" rel="1050" /></li>
+    <li><img src="" rel="1060" /></li>
+    <li><img src="" rel="1070" /></li>
+    <li><img src="" rel="1080" /></li>
+    <li><img src="" rel="1090" /></li>
+    <li><img src="" rel="1100" /></li>
+    <li><img src="" rel="1110" /></li>
+    <li><img src="" rel="1120" /></li>
+    <li><img src="" rel="1130" /></li>
+    <li><img src="" rel="1140" /></li>
+    <li><img src="" rel="1143" /></li>
+    <li><img src="" rel="1145" /></li>
+    <li><img src="" rel="1150" /></li>
+    <li><img src="" rel="1160" /></li>
+    <li><img src="" rel="1170" /></li>
+    <li><img src="" rel="1180" /></li>
+    <li><img src="" rel="1190" /></li>
+    <li><img src="" rel="1200" /></li>
+    <li><img src="" rel="1210" /></li>
+    <li><img src="" rel="1211" /></li>
+    <li><img src="" rel="1215" /></li>
+    <li><img src="" rel="1216" /></li>
+    <li><img src="" rel="1220" /></li>
+    <li><img src="" rel="1230" /></li>
+    <li><img src="" rel="1240" /></li>
+    <li><img src="" rel="1250" /></li>
+    <li><img src="" rel="1260" /></li>
+    <li><img src="" rel="1265" /></li>
+    <li><img src="" rel="1270" /></li>
+    <li><img src="" rel="1280" /></li>
+    <li><img src="" rel="1290" /></li>
+    <li><img src="" rel="1295" /></li>
+    <li><img src="" rel="1300" /></li>
+    <li><img src="" rel="1320" /></li>
+    <li><img src="" rel="1350" /></li>
+    <li><img src="" rel="1500" /></li>
+    <li><img src="" rel="1600" /></li>
+    <li><img src="" rel="1605" /></li>
+    <li><img src="" rel="1610" /></li>
+    <li><img src="" rel="2000" /></li>
+  </ul>
+</div>

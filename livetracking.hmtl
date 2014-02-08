@@ -1,0 +1,63 @@
+---
+  layout: default
+  title: Seguimiento en vivo del Open de Pedro Bernardo
+  section: livetracking
+---
+<h2>{{ page.title }}</h2>
+  <div>
+    <p>Evento en LiveTrack24.com: <a target="_blank" href="http://www.livetrack24.com/events/IIIOPENDEPB2014">III PEDRO BERNARDO HG OPEN 2014</a>
+  </div>
+  <table class="results">
+    <thead>
+      <tr>
+        <td class="transparent"></td>
+        <th >Pilotos (trackers)</th>
+        <th >Prueba / Manga</th>
+        <th >Visor 2D</th>
+        <th >3D Web</th>
+        <th >3D Google Earth</th>
+        <th >Replay</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="day">
+        <th>Miércoles</th>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/887">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/887/tp">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/887/2d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/887/3d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/887/ge">provisional</a></td>
+        <td>-</td>
+      </tr>
+      <tr class="day">
+        <th>Jueves</th>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/889">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/889/tp">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/889/2d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/889/3d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/889/ge">provisional</a></td>
+        <td>-</td>
+      </tr>
+      <tr class="day">
+        <th>Viernes</th>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/890">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/890/tp">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/890/2d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/890/3d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/890/ge">provisional</a></td>
+        <td>-</td>
+      </tr>
+      <tr class="day">
+        <th>Sábado</th>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/891">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/891/tp">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/891/2d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/891/3d">provisional</a></td>
+        <td><a target="_blank" href="http://www.livetrack24.com/tasks/891/ge">provisional</a></td>
+        <td>-</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <p><strong>NOTA</strong>: Sólo parte de los pilotos participantes tienen seguimento.</p>
+{% include animation.html %}

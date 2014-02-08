@@ -1,0 +1,9 @@
+<div id="post-{{ page.id }}" class="post">
+  <h2>{{ page.title }}
+  <span class="date">{{ page.date | date: "%d/%m/%Y" }}</span>
+  </h2>
+  {{ page.content }}
+  <a class="do_comment" href="{{ site.url }}{{ page.url }}#comments">Comentar noticia</a>
+  <br/>
+  <div class="fb-like" data-href="http://segundo.opendepb.com/{{page.id}}" data-send="true" data-width="450" data-show-faces="false"></div>
+</div>
