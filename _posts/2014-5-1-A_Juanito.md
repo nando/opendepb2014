@@ -3,15 +3,15 @@ layout: post
 title: A Juanito
 ---
 
-El tímido fulgor de las primeras luces del amanecer tiñe de viola y añil el infinito valle del Tietar. Y de silencio, un eterno silencio. Solo el leve murmullo de los arroyos se impone sobre el chirriar mudo de los corazones rotos.
+El tímido fulgor de las primeras luces del amanecer tiñe de viola y añil el infinito valle del Tiétar. Y de silencio, un eterno silencio. Solo el leve murmullo de los arroyos se impone sobre el chirriar mudo de los corazones rotos.
 
 Hoy no hay alas en el despegue de Piter. Un velo de cirros entierra nuestra esperanza, apaga el grito de las almas desgarradas, mudo como el murmullo de los arroyos.
 
-¡ Papá mira ! -dice mi hija con los labios cerrados y el alma abierta- hay un ala blanca y azul celeste alto, muy alto.
+-¡ Papá mira ! - dice mi hija con los labios cerrados y el alma abierta - hay un ala blanca y azul celeste alto, muy alto.
 
-Claro, pequeña, es el ala de Juanito, nuestro Juanito. Menudo cabrón, nos mira y se ríe.
+-Claro, pequeña, es el ala de Juanito, nuestro Juanito. Menudo cabrón, nos mira y se ríe.
 
--¡¿ Por qué no habéis montado todavía, canallas ?!- dice -¡ estáis tontos, os vais a perder esto !- Claro Juan, desde ayer nos lo vamos a perder todo. Tu sonrisa de amigo, tus abrazos de hermano, tu eterna presencia.
+-¡¿ Por qué no habéis montado todavía, canallas ?! - dice - ¡ estáis tontos, os vais a perder esto ! - Claro Juan, desde ayer nos lo vamos a perder todo. Tu sonrisa de amigo, tus abrazos de hermano, tu eterna presencia.
 
 Yo de mayor quiero ser como tú, quiero que todo el mundo me quiera como te quiere a ti, que se note el día que no esté como cuando no estás tú, que se alegren los corazones cuando me recuerden como cuando te
 recuerdan a ti.
